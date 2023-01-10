@@ -10,6 +10,8 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.colorcode",
       "person.colorcode",
       "location.colorcode",
+      "teachingmethods.colorcode",
+      "course.teachingmethods",
       "course.teachers",
       "course.locations",
       "list.elements"
@@ -36,8 +38,10 @@ export async function getStaticProps({ params }) {
       "course.colorcode",
       "person.colorcode",
       "location.colorcode",
+      "teachingmethods.colorcode",
       "course.teachers",
       "course.locations",
+      "course.teachingmethods",
       "list.elements"
     ]
   };
