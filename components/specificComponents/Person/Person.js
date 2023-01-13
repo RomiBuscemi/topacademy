@@ -21,7 +21,7 @@ export default class Person extends Component {
 							<div className={css["personaldetails"]}>
 								<div className={css["personaldetailitem"]}>{this.props.blok.title} {this.props.blok.firstname} {this.props.blok.lastname}</div>
 								<div className={css["personaldetailitem"]}>{this.props.blok.dateofbirth}</div>
-								<div className={css["personaldetailitem"]}>City: {this.props.blok.location}</div>
+								<div className={css["personaldetailitem"]}>{this.props.blok.location}</div>
 							</div>
 						</div>
 						<div className={[css["box"], css["experience"]].join(" ")}>
