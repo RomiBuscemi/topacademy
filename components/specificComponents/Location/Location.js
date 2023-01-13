@@ -1,20 +1,3 @@
-// import React, { Component } from "react";
-
-// export default class Location extends Component {
-
-//     constructor(props) {
-//         super(props);
-//     }
-
-//     render() {
-//         return (
-//             <div>
-//                 Location:{this.props.blok.title}</div>
-//         );
-
-//     }
-// }
-
 import React, { Component } from "react";
 import css from "./Location.module.scss";
 import Headermenu from "../../genericComponents/Headermenu/Headermenu";
